@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="tailorMS" Class="TailorMsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-PDSAB38\SQLEXPRESS;Initial Catalog=tailorMS;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="paperfinal.Properties.Settings" SettingsPropertyName="tailorMSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.loginnn" Member="loginnns">
+    <Type Name="loginnn">
+      <Column Name="username" Type="System.String" DbType="VarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
